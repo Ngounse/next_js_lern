@@ -1,0 +1,25 @@
+.container{
+      display: flex;
+      flex-direction:row;
+      align-items: center;
+      justify-content:space-between ;
+      background-color:rgb(199, 240, 223);
+      padding-left: 1em;
+}
+
+.container ul{
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+}
+
+.container ul li{
+      margin-right: 1em;
+}
+
+.container ul li a {
+      color: rgb(204, 130, 238);
+      text-decoration: none;
+      font-weight: bold;
+}
